@@ -13,6 +13,7 @@ import XCTest
 class RegistrationModelTestCase: XCTestCase {
     
     var sut: UserRegistrationModelValidatorProtocol!
+    
     let firstName = "Ajit"
     let lastName = "Satarkar"
     let email = "ajit.str@gmail.com"//Replace this text with any proper mail id this test case coverage will work
