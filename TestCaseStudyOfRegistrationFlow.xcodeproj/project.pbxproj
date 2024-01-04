@@ -16,6 +16,8 @@
 		B5C328D82B4676BA0046A77F /* TestCaseStudyOfRegistrationFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C328D72B4676BA0046A77F /* TestCaseStudyOfRegistrationFlowTests.swift */; };
 		B5C328E22B4676BA0046A77F /* TestCaseStudyOfRegistrationFlowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C328E12B4676BA0046A77F /* TestCaseStudyOfRegistrationFlowUITests.swift */; };
 		B5C328E42B4676BA0046A77F /* TestCaseStudyOfRegistrationFlowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C328E32B4676BA0046A77F /* TestCaseStudyOfRegistrationFlowUITestsLaunchTests.swift */; };
+		B5C328F22B4676F30046A77F /* RegistrationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C328F12B4676F30046A77F /* RegistrationModel.swift */; };
+		B5C328F42B4677660046A77F /* RegistrationModelTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C328F32B4677660046A77F /* RegistrationModelTestCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		B5C328DD2B4676BA0046A77F /* TestCaseStudyOfRegistrationFlowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCaseStudyOfRegistrationFlowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C328E12B4676BA0046A77F /* TestCaseStudyOfRegistrationFlowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCaseStudyOfRegistrationFlowUITests.swift; sourceTree = "<group>"; };
 		B5C328E32B4676BA0046A77F /* TestCaseStudyOfRegistrationFlowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCaseStudyOfRegistrationFlowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B5C328F12B4676F30046A77F /* RegistrationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationModel.swift; sourceTree = "<group>"; };
+		B5C328F32B4677660046A77F /* RegistrationModelTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationModelTestCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 			children = (
 				B5C328C02B4676B70046A77F /* AppDelegate.swift */,
 				B5C328C22B4676B70046A77F /* SceneDelegate.swift */,
+				B5C328F02B4676C20046A77F /* Registration_Model */,
 				B5C328C42B4676B70046A77F /* ViewController.swift */,
 				B5C328C62B4676B70046A77F /* Main.storyboard */,
 				B5C328C92B4676BA0046A77F /* Assets.xcassets */,
@@ -114,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				B5C328D72B4676BA0046A77F /* TestCaseStudyOfRegistrationFlowTests.swift */,
+				B5C328F32B4677660046A77F /* RegistrationModelTestCase.swift */,
 			);
 			path = TestCaseStudyOfRegistrationFlowTests;
 			sourceTree = "<group>";
@@ -125,6 +131,14 @@
 				B5C328E32B4676BA0046A77F /* TestCaseStudyOfRegistrationFlowUITestsLaunchTests.swift */,
 			);
 			path = TestCaseStudyOfRegistrationFlowUITests;
+			sourceTree = "<group>";
+		};
+		B5C328F02B4676C20046A77F /* Registration_Model */ = {
+			isa = PBXGroup;
+			children = (
+				B5C328F12B4676F30046A77F /* RegistrationModel.swift */,
+			);
+			path = Registration_Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +274,7 @@
 			files = (
 				B5C328C52B4676B70046A77F /* ViewController.swift in Sources */,
 				B5C328C12B4676B70046A77F /* AppDelegate.swift in Sources */,
+				B5C328F22B4676F30046A77F /* RegistrationModel.swift in Sources */,
 				B5C328C32B4676B70046A77F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5C328F42B4677660046A77F /* RegistrationModelTestCase.swift in Sources */,
 				B5C328D82B4676BA0046A77F /* TestCaseStudyOfRegistrationFlowTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
