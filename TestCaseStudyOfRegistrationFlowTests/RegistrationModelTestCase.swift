@@ -15,7 +15,7 @@ class RegistrationModelTestCase: XCTestCase {
     var sut: UserRegistrationModelValidatorProtocol!
     let firstName = "Ajit"
     let lastName = "Satarkar"
-    let email = "a.com"//Replace this text with any proper mail id this test case coverage will work
+    let email = "ajit.str@gmail.com"//Replace this text with any proper mail id this test case coverage will work
     let password = "12345678"
     let repeatPassword = "12345678"
     
