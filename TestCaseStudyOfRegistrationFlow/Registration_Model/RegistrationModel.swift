@@ -7,18 +7,6 @@
 
 import Foundation
 
-import Foundation
-
-protocol UserRegistrationModelValidatorProtocol { 
-    func isValidFirstName() -> Bool
-    func isValidLastName() -> Bool
-    func isValidEmail() -> Bool
-    func isValidPasswordLength() -> Bool
-    func doPasswordsMatch() -> Bool
-    func isValidPassword() -> Bool
-    func isDataValid() -> Bool
-}
-
 struct UserRegistrationModel {
     let firstName: String
     let lastName: String
