@@ -15,12 +15,11 @@ class RegistrationModelTestCase: XCTestCase {
     var sut: UserRegistrationModelValidatorProtocol!
     let firstName = "Ajit"
     let lastName = "Satarkar"
-    let email = "ajit.str@gmail.com"
+    let email = "a.com"//Replace this text with any proper mail id this test case coverage will work
     let password = "12345678"
     let repeatPassword = "12345678"
     
-    override func setUp() {
-    }
+    override func setUp() { }
 
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
